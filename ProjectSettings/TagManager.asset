@@ -38,11 +38,29 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BG Far
+    uniqueID: 734781069
+    locked: 0
+  - name: BG Mid
+    uniqueID: 3668822001
+    locked: 0
+  - name: BG Close
+    uniqueID: 1872806073
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: New Layer 1
-    uniqueID: 734781069
+  - name: MidGround 2
+    uniqueID: 1068104891
+    locked: 0
+  - name: FG Close
+    uniqueID: 2108531469
+    locked: 0
+  - name: FG Mid
+    uniqueID: 2052821597
+    locked: 0
+  - name: FG Far
+    uniqueID: 126804945
     locked: 0
   m_RenderingLayers:
   - Default
