@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5f80a81d80b4d9d4391f00419d54e75a
+guid: bfdb6b73eb8e48145a5eaf3276c8001d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6286648279972133356
-    second: StalegmiteTwo_0
+      213: -8579152661884553179
+    second: UIAllyHealth_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,11 +48,11 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 4, y: 4, z: 4, w: 4}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: StalegmiteTwo_0
+      name: UIAllyHealth_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 22
-        height: 44
+        width: 47
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce93f837d49ae3750800000000000000
-      internalID: 6286648279972133356
+      spriteID: 528368abb1ab0f880800000000000000
+      internalID: -8579152661884553179
       vertices: []
       indices: 
       edges: []
@@ -126,7 +126,7 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      StalegmiteTwo_0: 6286648279972133356
+      UIAllyHealth_0: -8579152661884553179
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5f80a81d80b4d9d4391f00419d54e75a
+guid: 30efdaf7646b9cd4cabe215821ddcb5a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6286648279972133356
-    second: StalegmiteTwo_0
+      213: 2635835070263708258
+    second: UIPointer_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: StalegmiteTwo_0
+      name: UIPointer_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 22
-        height: 44
+        width: 24
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce93f837d49ae3750800000000000000
-      internalID: 6286648279972133356
+      spriteID: 26ac599f70e549420800000000000000
+      internalID: 2635835070263708258
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      StalegmiteTwo_0: 6286648279972133356
+      UIPointer_0: 2635835070263708258
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
