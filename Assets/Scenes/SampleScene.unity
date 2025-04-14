@@ -1752,7 +1752,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 1.5
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 8ddecb2bf1c7addab9c0a06f00000000bbfca93f0da3ad7d5d925b7ad1e38e07
@@ -1814,7 +1814,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73b598cc137b6ac4782c818a6306cf7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  light: {fileID: 579986738}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0

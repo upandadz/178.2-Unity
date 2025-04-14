@@ -1,28 +1,50 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
 public class SpriteLightChange : MonoBehaviour
 {
-    public Light2D light;
+    private Light2D light;
+    private float minIntensity = 0.3f;
+    private float maxIntensity = 1.5f;
+    private float pulseSpeed = 1f;
+    private float currentIntensity;
+    private float targetIntensity = 1.5f;
+    
+    private Transform lightTransform;
+    private float zRotation;
 
-    private IEnumerator fadeInAndOutForever(Light2D lightToFade, bool fadeIn, float duration)
+    private void Start()
     {
-        float minIntensity = 0.3f;
-        float maxIntensity = 1.0f;
+        light = GetComponent<Light2D>();
+        lightTransform = GetComponent<Transform>();
+    }
 
-        // values depending if fade in or out
-        float a, b;
+    private void Update()
+    {
+        ChangeIntensity();
+        RotateLight();
+    }
 
-        if (fadeIn)
+    void ChangeIntensity()
+    {
+        currentIntensity = Mathf.MoveTowards(light.intensity,targetIntensity, Time.deltaTime*pulseSpeed);
+        if(currentIntensity >= maxIntensity)
         {
-            a = minIntensity;
-            b = maxIntensity;
+            currentIntensity = maxIntensity;
+            targetIntensity = minIntensity;
         }
-        else
+        else if(currentIntensity <= minIntensity)
         {
-            a = maxIntensity;
-            b = minIntensity;
+            currentIntensity = minIntensity;
+            targetIntensity = maxIntensity;
         }
+        light.intensity = currentIntensity;
+    }
+
+    void RotateLight()
+    {
+        transform.Rotate(0, 0, 10f*Time.deltaTime);
     }
 }
